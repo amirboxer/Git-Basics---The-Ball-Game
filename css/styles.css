@@ -7,9 +7,17 @@ h1 {
 }
 
 .ball {
+    display: grid;
+    place-items: center;
+
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    background-color: lightseagreen;
     margin: auto;
+
+    background-color: lightseagreen;
+
+    font-size: 22px;
+    font-weight: bold;
+
 }
