@@ -16,8 +16,9 @@ h1 {
     margin: auto;
 
     background-color: lightseagreen;
-
+    
     font-size: 22px;
     font-weight: bold;
 
+    transition:all 1s ease;
 }
