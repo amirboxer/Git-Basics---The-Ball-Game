@@ -15,10 +15,18 @@ h1 {
     width: 100px;
     margin: auto;
 
-    background-color: lightseagreen;
     
     font-size: 22px;
     font-weight: bold;
-
+    
     transition:all 1s ease;
+}
+
+.ball1 {
+    background-color: lightseagreen;
+}
+
+.ball2 {
+    margin-block-start: 100px ;
+    background-color: rgb(212, 0, 255);
 }
