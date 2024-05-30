@@ -4,7 +4,8 @@ function onBallClick(initialDiameter) {
     var ball = document.querySelector('.ball')
     var ballDiameter = +initialDiameter
     ball.onclick = () => {
-        ballDiameter = ballDiameter + 50 > 400 ? 100 : ballDiameter + 50
+        var incrementAmount = getRandomInt(20, 60)
+        ballDiameter = ballDiameter + incrementAmount > 400 ? 100 : ballDiameter + incrementAmount
         ball.innerHTML = ballDiameter
         ball.style = `height: ${ballDiameter}px; width: ${ballDiameter}px;`
     }
